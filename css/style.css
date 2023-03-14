@@ -1,0 +1,907 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --font-primary-color: #1B1C57;
+    --font-secondary-color: #626687;
+    --color-but: #64CFE1;
+    --color-side: #F59E0B;
+    --font-size-primary: 55px;
+    --font-size-secondary: 16px;
+
+
+
+    --margin-left: 70px;
+    --margin-right: 70px;
+
+
+}
+
+
+
+
+
+body {
+    color: var(--font-primary-color);
+    font-family: sans-serif;
+
+}
+
+
+
+
+
+
+
+/* nav bar  start here */
+section.head {
+    position: sticky;
+    top: 0;
+    background-color: white;
+
+}
+
+
+section.head header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: var(--margin-left);
+    margin-right: var(--margin-right);
+    height: 70px;
+}
+
+section.head header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+
+}
+
+
+section.head nav ul li a {
+    text-decoration: none;
+    color: var(--font-primary-color);
+    border: 1px solid rgba(232, 232, 232, 0.568);
+    border-radius: 20px;
+    background-color: #64cee10c;
+    padding: 8px 16px;
+}
+
+section.head nav ul li a:hover {
+    color: white;
+    background-color: var(--color-but);
+    font-weight: bold;
+
+}
+
+section.head nav ul li a.singup {
+    margin-left: 25px;
+    background-color: var(--color-but);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+section.head nav ul li a.singup:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+/* nav bar end here  */
+
+
+
+
+
+
+
+section.sec1 main {
+    display: flex;
+    /* justify-content: space-around; */
+
+}
+
+
+
+
+/* start section left */
+
+
+section.sec1 main div.left {
+    margin-bottom: 58px;
+    flex: 1;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+
+}
+
+section.sec1 main div.left div.pargraph {
+    height: 236px;
+    width: 551px;
+    padding: 20px;
+    margin-left: var(--margin-left);
+
+}
+
+section.sec1 main div.left div.pargraph h1 {
+    font-size: 50px
+}
+
+section.sec1 main div.left div.pargraph h4 {
+    font-size: 16px;
+    color: var(--font-secondary-color);
+}
+
+
+
+section.sec1 main div.left div.but {
+    margin-left: var(--margin-left);
+    padding-left: 20px;
+
+}
+
+section.sec1 main div.left button {
+    background-color: var(--color-but);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 40px;
+    display: flex;
+    text-align: center;
+
+
+}
+
+section.sec1 main div.left button a {
+    text-decoration: none;
+    color: white;
+    font-size: var(--font-size-secondary);
+}
+
+
+
+/* end section left */
+
+
+
+
+
+/* start section right */
+
+
+section.sec1 main div.right {
+    flex: 1;
+    background-image: url(../css/img/sec1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    border-radius: 0 0 0 80px;
+    display: flex;
+    align-items: flex-end;
+
+
+
+}
+
+
+section.sec1 main div.right div.container {
+    margin-left: 48px;
+    margin-bottom: 38px;
+    display: flex;
+    gap: 20px;
+
+
+}
+
+section.sec1 main div.right div.container div.left-cont {
+    background-color: white;
+    height: 114px;
+    width: 272px;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+section.sec1 main div.right div.container div.left-cont div.img img {
+    width: 56px;
+    height: 56px;
+    margin: 0 24px 0 16px;
+    border-radius: 50px;
+    border: 2px solid white;
+
+}
+
+
+section.sec1 main div.right div.container div.left-cont div.parg h5 {
+    color: var(--font-secondary-color);
+}
+
+
+
+
+
+
+
+section.sec1 main div.right div.container div.right-cont {
+    background-color: white;
+    height: 104px;
+    width: 192px;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+section.sec1 main div.right div.container div.right-cont div.img img {
+    width: 56px;
+    height: 56px;
+    margin: 0 24px 0 16px;
+    border-radius: 50px;
+    border: 2px solid white;
+
+}
+
+
+section.sec1 main div.right div.container div.right-cont div.parg h5 {
+    color: var(--font-secondary-color);
+}
+
+
+/* end section right */
+
+
+
+
+
+
+
+
+
+/* start section2  */
+
+section.section2 {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 50px;
+}
+
+
+section.section2 section.section-home {
+    margin-left: var(--margin-left);
+    margin-right: var(--margin-right);
+    height: 428px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* start section left  */
+
+section.section2 section.section-home div.left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+
+section.section2 section.section-home div.left div>h6 {
+    color: var(--color-side);
+    font-size: 14px;
+    margin-top: 3px;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+section.section2 section.section-home div.left div>h6::before {
+
+    content: '';
+    width: 40px;
+    height: 2px;
+    background-color: var(--color-side);
+    display: inline-block;
+
+}
+
+section.section2 section.section-home div.left div>h2 {
+    margin-top: 33px;
+    margin-bottom: 18px;
+    color: var(--font-primary-color);
+    padding-left: 30px;
+    padding-right: 35px;
+}
+
+section.section2 section.section-home div.left div>h5 {
+    color: var(--font-secondary-color);
+    line-height: 25px;
+    padding-left: 30px;
+    padding-right: 35px;
+}
+
+/* end section left  */
+
+
+
+
+
+
+/* start section right  */
+
+
+section.section2 section.section-home div.right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* end section right  */
+
+/* end section2  */
+
+
+
+
+
+/* start section 3 */
+
+section.section3 {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 50px;
+
+}
+
+
+section.section3 div.container {
+    margin-left: var(--margin-left);
+    margin-right: var(--margin-right);
+    height: 600px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+section.section3 div.container div.top {
+    flex: .3;
+}
+
+
+section.section3 div.container div.top div>h6 {
+
+    color: var(--color-side);
+    font-size: 14px;
+    margin-top: 3px;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+
+}
+
+section.section3 div.container div.top div>h6::before {
+    content: '';
+    width: 40px;
+    height: 2px;
+    background-color: var(--color-side);
+    display: inline-block;
+}
+
+
+
+
+section.section3 div.container div.top div>h2 {
+
+    margin-top: 15px;
+    margin-bottom: 18px;
+    color: var(--font-primary-color);
+    padding-left: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+section.section3 div.container div.but {
+    flex: 1.7;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 12px 0 12px 0;
+}
+
+
+
+
+section.section3 div.container div.but div.card1,
+div.card2,
+div.card3 {
+    background-color: rgb(186 186 186 / 8%);
+    border-radius: 20px;
+    width: 300px;
+    height: 497px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section.section3 div.container div.but div.card1 div.img {
+    flex: 1;
+    background-image: url(/css/img/nursing-care.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    /* position: relative;  فقط اذا ردنا اضافة البتن وما يطلع خارج الصورة */
+
+}
+
+/* section.section3 div.container div.but div.card1 div.img button.in-img-but{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: #fff;
+}  */
+
+
+
+
+section.section3 div.container div.but div.card1 div.title {
+    flex: .3;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section.section3 div.container div.but div.card1 div.title h3 {
+    margin-bottom: 10px;
+    color: var(--font-primary-color);
+}
+
+section.section3 div.container div.but div.card1 div.title h5 {
+    line-height: 23px;
+    color: var(--font-secondary-color);
+}
+
+
+section.section3 div.container div.but div.card1 div.logo {
+    flex: .2;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+section.section3 div.container div.but div.card1 div.logo div.imgs img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid white;
+}
+
+section.section3 div.container div.but div.card1 div.logo div.parg h3 {
+    color: var(--font-primary-color);
+}
+
+section.section3 div.container div.but div.card1 div.logo div.parg h5 {
+    color: var(--font-secondary-color);
+}
+
+
+
+
+
+
+section.section3 div.container div.but div.card2 div.img {
+    flex: 1;
+    background-image: url(/css/img/day-care.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+
+
+section.section3 div.container div.but div.card2 div.title {
+    flex: .3;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section.section3 div.container div.but div.card2 div.title h3 {
+    margin-bottom: 10px;
+    color: var(--font-primary-color);
+}
+
+section.section3 div.container div.but div.card2 div.title h5 {
+    line-height: 23px;
+    color: var(--font-secondary-color);
+}
+
+
+section.section3 div.container div.but div.card2 div.logo {
+    flex: .2;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+section.section3 div.container div.but div.card2 div.logo div.imgs img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid white;
+}
+
+section.section3 div.container div.but div.card2 div.logo div.parg h3 {
+    color: var(--font-primary-color);
+}
+
+section.section3 div.container div.but div.card2 div.logo div.parg h5 {
+    color: var(--font-secondary-color);
+}
+
+
+
+
+
+
+
+section.section3 div.container div.but div.card3 div.img {
+    flex: 1;
+    background-image: url(/css/img/wound-care\ .jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+
+section.section3 div.container div.but div.card3 div.title {
+    flex: .3;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section.section3 div.container div.but div.card3 div.title h3 {
+    margin-bottom: 10px;
+    color: var(--font-primary-color);
+}
+
+section.section3 div.container div.but div.card3 div.title h5 {
+    line-height: 23px;
+    color: var(--font-secondary-color);
+}
+
+
+section.section3 div.container div.but div.card3 div.logo {
+    flex: .2;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+section.section3 div.container div.but div.card3 div.logo div.imgs img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid white;
+}
+
+section.section3 div.container div.but div.card3 div.logo div.parg h3 {
+    color: var(--font-primary-color);
+}
+
+section.section3 div.container div.but div.card3 div.logo div.parg h5 {
+    color: var(--font-secondary-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* start section4  */
+
+section.section4 {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    margin-top: 50px;
+}
+
+
+section.section4 section.section-home {
+    margin-left: var(--margin-left);
+    margin-right: var(--margin-right);
+    height: 428px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* start section left  */
+
+section.section4 section.section-home div.left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+
+section.section4 section.section-home div.left div>h6 {
+    color: var(--color-side);
+    font-size: 14px;
+    margin-top: 3px;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+section.section4 section.section-home div.left div>h6::before {
+
+    content: '';
+    width: 40px;
+    height: 2px;
+    background-color: var(--color-side);
+    display: inline-block;
+
+}
+
+section.section4 section.section-home div.left div>h2 {
+    margin-top: 33px;
+    margin-bottom: 18px;
+    color: var(--font-primary-color);
+    padding-left: 30px;
+    padding-right: 35px;
+}
+
+section.section4 section.section-home div.left div>h5 {
+    color: var(--font-secondary-color);
+    line-height: 25px;
+    padding-left: 30px;
+    padding-right: 35px;
+}
+
+/* end section left  */
+
+
+
+
+
+
+/* start section right  */
+
+
+section.section4 section.section-home div.right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+section.section4 section.section-home div.right div>img {
+    width: 100%;
+    height: 400px;
+}
+
+
+/* end section right  */
+
+/* end section4  */
+
+
+
+
+/* start section 5 */
+
+section.section5 {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 50px;
+}
+
+
+section.section5 div.s5-cont{
+    background-image: url(/css/img/bg-section.jpg);
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 450px;
+    border-radius: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+section.section5 div.s5-cont > h1.top{
+    margin-left: 234px;
+    margin-right: 234px;
+    text-align: center;
+    line-height: 38px;
+}
+
+
+section.section5 div.s5-cont > h3{
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    line-height: 25px;
+}
+
+
+section.section5 div.s5-cont div.contact-but{
+
+    width: 70%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+
+
+
+}
+
+section.section5 div.s5-cont div.contact-but p.call{
+     width: 350px;
+     height: 50px;
+     background: white;
+     border-radius: 32px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 30px;
+}
+
+section.section5 div.s5-cont div.contact-but p.call img{
+    width: 24px;
+    height: 24px;
+}
+
+section.section5 div.s5-cont div.contact-but p.call span{
+    color: var(--font-secondary-color);
+}
+
+section.section5 div.s5-cont div.contact-but p.call>a{
+        text-decoration: none;
+        background-color: var(--color-but);
+        border-radius: 32px;
+        padding: 10px 20px;
+        color: white;
+        font-weight: bold;
+}
+
+
+
+
+
+
+
+section.section5 div.s5-cont div.contact-but p.sendnow{
+    width: 350px;
+    height: 50px;
+    background: white;
+    border-radius: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+section.section5 div.s5-cont div.contact-but p.sendnow img{
+   width: 24px;
+   height: 24px;
+}
+
+
+section.section5 div.s5-cont div.contact-but p.sendnow span{
+    color: var(--font-secondary-color);
+}
+
+section.section5 div.s5-cont div.contact-but p.sendnow>a{
+       text-decoration: none;
+       background-color: var(--color-but);
+       border-radius: 32px;
+       padding: 10px 20px;
+       color: white;
+       font-weight: bold;
+}
+
+
+/* end section 5 */
+
+
+
+
+
+footer{
+
+    width: 100%;
+    height: 150px;
+    background-color: #64cfe124;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+footer div.FTI {
+
+    display: flex;    
+    gap: 30px;
+    
+}
+
+footer div.copyR{
+    margin-top: 15px;
+}
+
+
+
